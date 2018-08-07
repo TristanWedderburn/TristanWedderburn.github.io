@@ -1,0 +1,68 @@
+*{
+	font-family: 'Oxygen', sans-serif;
+}
+
+.hero{
+	position: relative;
+}
+
+.herotext{
+	position: absolute;
+	top: 50%; 
+	left: 50%;
+  	transform: translate(-50%,-50%);
+	width: 100%;
+	color: white;
+	text-align: center;
+	font-weight: 900;	
+}
+ .herotext h1{
+ 	padding-bottom: 30px;
+ }
+
+#profilepic{
+	display: block;
+	position: cover;
+	max-height: 130px;
+	max-width: 130px;
+	border-radius: 100px;
+	margin: 50px auto;
+}
+
+.about,.reading{
+	max-width: 66%;
+	margin:auto auto;
+  	letter-spacing: 1px;
+  	padding: auto auto;
+}
+
+.footer{
+	text-align: center;
+	padding: 30px;
+}
+
+.books{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.books img{
+	width:150px;
+	height:220px;
+	margin:15px;
+	transition: all 1s;
+}
+
+.books img:hover {
+	transform: scale(1.1);
+}
+
+.books figure{
+	margin:10px;
+}
+
+.reading{
+	padding-top:30px;
+}
+
