@@ -29,7 +29,7 @@
 	margin: 50px auto;
 }
 
-.about,.reading{
+.about,.reading, .projects{
 	max-width: 66%;
 	margin:auto auto;
   	letter-spacing: 1px;
@@ -50,7 +50,7 @@
 .books img{
 	width:150px;
 	height:220px;
-	margin:15px;
+	margin:10px;
 	transition: all 1s;
 }
 
@@ -60,9 +60,14 @@
 
 .books figure{
 	margin:10px;
+	text-decoration: none;
 }
 
-.reading{
+.books figcaption{
+	margin:10px;
+}
+
+.reading, .projects{
 	padding-top:30px;
 }
 
