@@ -9,6 +9,12 @@
 	margin: 25px 25px 25px 0px;
 }
 
+.about {
+	max-width: 66%;
+	margin:auto auto;
+  	letter-spacing: 1px;
+  	padding: auto auto;
+}
 
 .social_icon {
 	border-radius: 5px;
@@ -20,7 +26,6 @@
 .about{
 	margin-top: 150px;
 }
-
 
 .bio{
 	word-wrap: break-word;
