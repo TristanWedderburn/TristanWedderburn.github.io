@@ -11,10 +11,8 @@
 
 .about {
 	max-width: 66%;
-	margin:auto auto;
+	margin:150px auto;
   	letter-spacing: 1px;
-	padding: auto auto;
-	margin-top: 150px;
 }
 
 .social_icon {
